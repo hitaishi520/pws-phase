@@ -1,0 +1,49 @@
+{
+  "basics":{
+    "img":"images/a.jpg",
+    "name":"Hihtaishi",
+    "Rollno":"17699A0520"
+  },
+  "carrier":{
+    "info":"my aim is to achieve goals"
+  },
+  "education":[
+
+  {
+    "sno":1,
+    "degree":"Btech",
+    "institution":"MITS",
+    "percentage":"9.0"
+
+  },
+  {
+    "sno":2,
+    "degree":"ssc",
+    "institution":"sri sai concept school",
+    "percentage":"9.5"
+
+  },
+  {
+    "sno":3,
+    "degree":"Inter",
+    "institution":"chaitanya",
+    "percentage":"950"
+
+  }
+
+],
+
+
+"skills":[
+  {
+   "info":"c"
+  },
+  {
+    "info":"c++"
+  },
+  {
+    "info":"java"
+  }
+
+]
+}

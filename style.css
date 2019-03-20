@@ -1,0 +1,40 @@
+body{
+  background-color: red;
+}
+.x{
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+}
+.y{
+  background-color: blue;
+  width:30%;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  justify-content:space-around;
+  border-radius: 10%;
+}
+img{
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .x{
+    display: flex;
+    flex-direction: column;
+  }
+  .y{
+    width: 30%;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:760px) {
+  .x{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .y{
+    width: 30%;
+  }
+
+}

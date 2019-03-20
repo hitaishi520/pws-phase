@@ -1,0 +1,46 @@
+body{
+  background-color: pink;
+}
+.parent{
+  display: flex;
+  justify-content: space-around;
+
+}
+.left{
+background-color: white;
+width: 25%;
+border-radius: 5%;
+text-align: center;
+box-shadow: 2px 2px 2px green;
+}
+.right{
+  background-color: white;
+  width: 60%;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow:  5px 5px 5px green;
+}
+table{
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 100%;
+  border-color: yellow;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .left{
+    display: flex;
+    flex-direction: column;
+  }
+  .right{
+    width: 30%;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:760px) {
+  .left{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .parent{
+    width: 30%;
+  }
